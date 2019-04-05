@@ -19,6 +19,6 @@ const logger2 = store => next => action => {
   console.log('2 new state', store.getState())
 }
 
-const store = createStore(rootReducer, composeWithDevTools(applyMiddleware(logger1, thunk, logger2)))
+const store = createStore(rootReducer, composeWithDevTools(applyMiddleware(logger1, thunk)))
 
 export default store

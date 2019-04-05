@@ -20,6 +20,9 @@ function Navbar(props) {
         <Link to='/redux'>
           Redux
         </Link>
+        <Link to='/context'>
+          Context
+        </Link>
       </div>
     </header>
   )
